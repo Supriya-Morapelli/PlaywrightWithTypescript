@@ -1,0 +1,363 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "end-to-end-order-placement;user-places-an-order-with-different-credentials",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "User places an order with different credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1811581900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\loginPage.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4009884000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with username \"supriyamorapelli@gmail.com\" and password \"supriyamorapelli\"",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2762741000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be redirected to the home page",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51064699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search and select the product \"Simple Computer\"",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6192645100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I configure the product with desired options and add the product to the cart",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347744699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I go to the cart",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7181697399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see \"Simple Computer\" in the cart",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30109300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1572858299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter shipping address and I place the order",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2806598399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see order confirmation",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1474050900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I should see an order ID",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4529600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 207867200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "end-to-end-order-placement;user-places-an-order-with-different-credentials",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "User places an order with different credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 214150399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "steps\\loginPage.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2882700799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I login with username \"morapelli_supriya@gmail.com\" and password \"morapelli_supriya\"",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2759124900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be redirected to the home page",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24508699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search and select the product \"Simple Computer\"",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6165233699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I configure the product with desired options and add the product to the cart",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 306856600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I go to the cart",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32836086299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see \"Simple Computer\" in the cart",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22810400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1528739400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter shipping address and I place the order",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2519414699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should see order confirmation",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1500560700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I should see an order ID",
+            "match": {
+              "location": "steps\\e2e_Order.steps.ts:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5506800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 130401899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "end-to-end-order-placement",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "End-to-End Order Placement",
+    "tags": [],
+    "uri": "features\\e2e_Order.feature"
+  }
+]
