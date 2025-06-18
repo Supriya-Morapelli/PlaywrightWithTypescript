@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require steps/**/*.ts features/**/*.feature",
     "test:e2e": "npx cucumber-js features/e2e_Order.feature --format json:cucumber-report.json --exit",
     "generate-report": "ts-node report.ts",
     "e2e:report": "npm run test:e2e && npm run generate-report"
