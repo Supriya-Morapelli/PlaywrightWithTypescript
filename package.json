@@ -5,7 +5,7 @@
   "scripts": {
     "test": "cucumber-js --require-module ts-node/register --require steps/**/*.ts features/**/*.feature --exit",
     "test:e2e": "npx cucumber-js features/e2e_Order.feature --format json:cucumber-report.json --exit",
-    "generate-report": "ts-node report.ts",
+    "generate-report": "ts-node report.ts && exit 0",
     "e2e:report": "npm run test:e2e && npm run generate-report"
   },
   "keywords": [],
