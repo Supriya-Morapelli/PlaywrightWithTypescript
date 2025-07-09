@@ -1,0 +1,15 @@
+{
+
+    "URL":"https://www.google.com/",
+
+
+"myTestData":{
+"Data1":"PLAYWRIGHT",
+"Data2":"CUCUMBER BDD",
+"Data3":"TYPESCRIPT"
+},
+
+"searchData":{
+     "searchwith":"Playwright Course"
+}
+}
