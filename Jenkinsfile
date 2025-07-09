@@ -2,7 +2,7 @@ pipeline {
     agent any
  
     tools {
-        nodejs "NodeJS_20" // 👈 Make sure this matches the name in Jenkins Global Tool Configuration
+        nodejs "NodeJS 20.14.0" // 👈 Make sure this matches the name in Jenkins Global Tool Configuration
     }
  
     environment {
@@ -31,9 +31,15 @@ pipeline {
             }
         }
  
-        stage('Install Playwright Browsers') {
+        // stage('Install Playwright Browsers') {
+        //     steps {
+        //         sh 'npx playwright install'
+        //     }
+        // }
+         stage('Install Chromium Only') {
             steps {
-                sh 'npx playwright install'
+                echo 'Installing Chromium only to avoid network issues...'
+                sh 'npx playwright install chromium'
             }
         }
  
