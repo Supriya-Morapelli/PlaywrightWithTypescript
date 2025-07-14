@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 2004565599
+              "duration": 869156700
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5268417499
+              "duration": 3812820700
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 8,
             "name": "I login with username \"supriyamorapelli@gmail.com\" and password \"supriyamorapelli\"",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:25"
+              "location": "steps\\e2e_Order.steps.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 3000128300
+              "duration": 2750288499
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 9,
             "name": "I should be redirected to the home page",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:31"
+              "location": "steps\\e2e_Order.steps.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 73584199
+              "duration": 52486600
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 10,
             "name": "I search and select the product \"Simple Computer\"",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:34"
+              "location": "steps\\e2e_Order.steps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 6783959000
+              "duration": 5680659600
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 11,
             "name": "I configure the product with desired options and add the product to the cart",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:45"
+              "location": "steps\\e2e_Order.steps.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 418265400
+              "duration": 320006900
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 12,
             "name": "I go to the cart",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:51"
+              "location": "steps\\e2e_Order.steps.ts:53"
             },
             "result": {
               "status": "passed",
-              "duration": 5818582099
+              "duration": 6019558799
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 13,
             "name": "I should see \"Simple Computer\" in the cart",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:56"
+              "location": "steps\\e2e_Order.steps.ts:58"
             },
             "result": {
               "status": "passed",
-              "duration": 47490799
+              "duration": 33554500
             }
           },
           {
@@ -114,11 +114,11 @@
             "line": 14,
             "name": "I proceed to checkout",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:60"
+              "location": "steps\\e2e_Order.steps.ts:62"
             },
             "result": {
               "status": "passed",
-              "duration": 1583180300
+              "duration": 1541753000
             }
           },
           {
@@ -127,11 +127,11 @@
             "line": 15,
             "name": "I enter shipping address and I place the order",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:65"
+              "location": "steps\\e2e_Order.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 4614732999
+              "duration": 2701359200
             }
           },
           {
@@ -140,11 +140,11 @@
             "line": 16,
             "name": "I should see order confirmation",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:69"
+              "location": "steps\\e2e_Order.steps.ts:71"
             },
             "result": {
               "status": "passed",
-              "duration": 1697837399
+              "duration": 1716514600
             }
           },
           {
@@ -153,11 +153,11 @@
             "line": 17,
             "name": "I should see an order ID",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:73"
+              "location": "steps\\e2e_Order.steps.ts:75"
             },
             "result": {
               "status": "passed",
-              "duration": 10154600
+              "duration": 5721900
             }
           },
           {
@@ -165,7 +165,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 492406300
+              "duration": 302775400
             }
           }
         ],
@@ -189,7 +189,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 788324400
+              "duration": 490377199
             }
           },
           {
@@ -202,7 +202,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3312775300
+              "duration": 2836266400
             }
           },
           {
@@ -211,11 +211,11 @@
             "line": 8,
             "name": "I login with username \"morapelli_supriya@gmail.com\" and password \"morapelli_supriya\"",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:25"
+              "location": "steps\\e2e_Order.steps.ts:27"
             },
             "result": {
               "status": "passed",
-              "duration": 2751567700
+              "duration": 2820367900
             }
           },
           {
@@ -224,11 +224,11 @@
             "line": 9,
             "name": "I should be redirected to the home page",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:31"
+              "location": "steps\\e2e_Order.steps.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 32467700
+              "duration": 27497799
             }
           },
           {
@@ -237,11 +237,11 @@
             "line": 10,
             "name": "I search and select the product \"Simple Computer\"",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:34"
+              "location": "steps\\e2e_Order.steps.ts:36"
             },
             "result": {
               "status": "passed",
-              "duration": 6238221400
+              "duration": 5639930400
             }
           },
           {
@@ -250,11 +250,11 @@
             "line": 11,
             "name": "I configure the product with desired options and add the product to the cart",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:45"
+              "location": "steps\\e2e_Order.steps.ts:47"
             },
             "result": {
               "status": "passed",
-              "duration": 417474799
+              "duration": 7295133300
             }
           },
           {
@@ -263,11 +263,11 @@
             "line": 12,
             "name": "I go to the cart",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:51"
+              "location": "steps\\e2e_Order.steps.ts:53"
             },
             "result": {
               "status": "passed",
-              "duration": 6318779900
+              "duration": 11732796300
             }
           },
           {
@@ -276,11 +276,11 @@
             "line": 13,
             "name": "I should see \"Simple Computer\" in the cart",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:56"
+              "location": "steps\\e2e_Order.steps.ts:58"
             },
             "result": {
               "status": "passed",
-              "duration": 49389900
+              "duration": 35973200
             }
           },
           {
@@ -289,11 +289,11 @@
             "line": 14,
             "name": "I proceed to checkout",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:60"
+              "location": "steps\\e2e_Order.steps.ts:62"
             },
             "result": {
               "status": "passed",
-              "duration": 1594990299
+              "duration": 7120439499
             }
           },
           {
@@ -302,11 +302,11 @@
             "line": 15,
             "name": "I enter shipping address and I place the order",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:65"
+              "location": "steps\\e2e_Order.steps.ts:67"
             },
             "result": {
               "status": "passed",
-              "duration": 2953290499
+              "duration": 15543862699
             }
           },
           {
@@ -315,11 +315,11 @@
             "line": 16,
             "name": "I should see order confirmation",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:69"
+              "location": "steps\\e2e_Order.steps.ts:71"
             },
             "result": {
               "status": "passed",
-              "duration": 1515259900
+              "duration": 1461997100
             }
           },
           {
@@ -328,11 +328,11 @@
             "line": 17,
             "name": "I should see an order ID",
             "match": {
-              "location": "steps\\e2e_Order.steps.ts:73"
+              "location": "steps\\e2e_Order.steps.ts:75"
             },
             "result": {
               "status": "passed",
-              "duration": 6528299
+              "duration": 6047699
             }
           },
           {
@@ -340,7 +340,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 541627999
+              "duration": 250494900
             }
           }
         ],

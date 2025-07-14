@@ -2,12 +2,12 @@ pipeline {
     agent any
  
     tools {
-        nodejs "NodeJS 20.14.0" // 👈 Make sure this matches the name in Jenkins Global Tool Configuration
+        nodejs "NodeJS 20.14.0" 
     }
  
     environment {
-        HEADLESS = "false" // Run tests in headed mode
-        PLAYWRIGHT_BROWSERS_PATH = "0" // Install browsers locally in the project
+        HEADLESS = "false" 
+        PLAYWRIGHT_BROWSERS_PATH = "0" 
     }
  
     stages {
@@ -36,6 +36,7 @@ pipeline {
         //         sh 'npx playwright install'
         //     }
         // }
+        //
          stage('Install Chromium Only') {
             steps {
                 echo 'Installing Chromium only to avoid network issues...'
